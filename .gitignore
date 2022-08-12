@@ -1,0 +1,8 @@
+**/target
+**/*.rs.bk
+**/Cargo.lock
+
+.idea
+
+# Don't ignore Cargo.lock files in demo applications
+!/demos/**/Cargo.lock
